@@ -58,11 +58,14 @@ router.get('/', async (req, res) => {
 
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected by Kg Tech❤*
-*_Made With 🤍_*
+*_Made With KERM MD_*
+*_Owner Rayan: wa.me/237656520674
+*_Owner Gifarreno: wa.me/237650564445
 ______________________________________
 ╔════◇
 ║ *『 WOW YOU'VE CHOSEN KERM MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ _Don't share your session to someone_
 ╚════════════════════════╝`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
