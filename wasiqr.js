@@ -59,12 +59,15 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: 'KERM-MD;;;' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By RAYAN KERM_*
+*_Session Connected By KG TECH_*
 *_Made With 🛠️_*
+*_Owner Rayan: wa.me/237656520674
+*_Owner Gifarreno: wa.me/237650564445
 ______________________________________
 ╔════◇
 ║ *『AMAZING YOU'VE CHOSEN KERM MD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
+║ _Don't share your session to someone_
 ╚════════════════════════╝`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
