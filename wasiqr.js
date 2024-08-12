@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 *_Session Connected By KG TECH_*
-*_Made With 🛠️_*
+*_Made With KERM MD_*
 *_Owner Rayan: wa.me/237656520674
 *_Owner Gifarreno: wa.me/237650564445
 ______________________________________
