@@ -1,5 +1,5 @@
 {
-    "description": "wasisession",
+    "description": "kermsession",
     "main": "./itxxwasi.js",
   "engines" : { 
     "npm" : ">=9.7.2",
