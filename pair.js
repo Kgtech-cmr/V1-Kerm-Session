@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'KERM-MD;;;' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'KG_TECH_237;;;' + b64data });
 
                let GIFTED_MD_TEXT = `
 *_Pair Code Connected by Kg Tech❤*
@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
 *_Owner Gifarreno: wa.me/237650564445
 ______________________________________
 ╔════◇
-║ *『 WOW YOU'VE CHOSEN KERM MD 』*
+║ *『 WOW YOU'VE CHOSEN KERM MD v3 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ║ _Don't share your session to someone_
 ╚════════════════════════╝`
